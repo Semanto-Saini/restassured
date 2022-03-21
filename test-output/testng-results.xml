@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="14710" started-at="2022-03-21T11:22:34Z" finished-at="2022-03-21T11:22:49Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="14710" started-at="2022-03-21T11:22:34Z" finished-at="2022-03-21T11:22:49Z">
+      <class name="rest.restapiproject.project">
+        <test-method status="PASS" signature="createUser(org.testng.ITestContext)[pri:0, instance:rest.restapiproject.project@11531931]" name="createUser" duration-ms="6259" started-at="2022-03-21T16:52:34Z" finished-at="2022-03-21T16:52:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@62043840]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method status="PASS" signature="login()[pri:0, instance:rest.restapiproject.project@11531931]" name="login" duration-ms="2301" started-at="2022-03-21T16:52:40Z" depends-on-methods="rest.restapiproject.project.createUser" finished-at="2022-03-21T16:52:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="edit(org.testng.ITestContext)[pri:0, instance:rest.restapiproject.project@11531931]" name="edit" duration-ms="1587" started-at="2022-03-21T16:52:43Z" depends-on-methods="rest.restapiproject.project.login" finished-at="2022-03-21T16:52:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@62043840]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- edit -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:rest.restapiproject.project@11531931]" name="logout" duration-ms="2236" started-at="2022-03-21T16:52:44Z" depends-on-methods="rest.restapiproject.project.edit" finished-at="2022-03-21T16:52:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="delete(org.testng.ITestContext)[pri:0, instance:rest.restapiproject.project@11531931]" name="delete" duration-ms="2279" started-at="2022-03-21T16:52:46Z" depends-on-methods="rest.restapiproject.project.logout" finished-at="2022-03-21T16:52:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@62043840]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete -->
+      </class> <!-- rest.restapiproject.project -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
